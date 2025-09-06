@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HOME</title>
-    <link rel="stylesheet" href="./style/style.css"> 
-    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>            
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>    
+    <link rel="stylesheet" href="style/style.css">         
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />     
      
 </head>
@@ -14,7 +14,7 @@
   <header class="header">
     <!-- Logo -->
     <a href="/" class="logo">
-      <img src="/imag/ logo.jpg" alt="Brand Logo">
+      <img src="./imag/ logo.jpg" alt="Brand Logo">
     </a>
 
     <!-- Category Dropdown -->
@@ -43,7 +43,7 @@
         <li><a href="/index.html" class="active"><i class="fa fa-home"></i><span>Home</span></a></li>
         <li><a href="/shop.html"><i class="fa fa-shopping-cart"></i><span>Shop</span></a></li>
         <li><a href="/about.html"><i class="fa fa-info-circle"></i><span>About</span></a></li>
-        <li><a href="/contact.html"><i class="fa fa-envelope"></i><span>Contact</span></a></li>
+        <li><a href="./contact.html"><i class="fa fa-envelope"></i><span>Contact</span></a></li>
         <li><a href="/sign.html"><i class="fa fa-user"></i><span>Sign</span></a></li>
         <li id="lg-bag"><a href="/cart.html"><i class="fa fa-shopping-basket"></i></a></li>
         <li><i class="fa fa-times-circle" id="close"></i></li>
@@ -55,6 +55,8 @@
       <a href="cart.html"><i class="fa fa-shopping-basket"></i></a> 
       <i id="bar" class="fa fa-outdent"></i>
     </div>
+    
+    <div class="dark-mode-toggle" id="themeToggle">🌞</div>
   </header>
 
   <!-- Hero Banner -->
@@ -113,7 +115,7 @@
         <i class="fa fa-star"></i>
         <i class="fa fa-star"></i>
       </div>
-      <div class="price-cart">
+      <div class="price">
         <h4>₹299</h4>
         <a href="#" class="ai"><i class="fa fa-shopping-cart"></i></a>
       </div>
@@ -135,7 +137,7 @@
                 <i class="fa fa-star"></i>
                 <i class="fa fa-star"></i>
             </div>
-            <div>
+            <div class="price"> 
                 <h4>₹399</h4>
                 <a href="#" class="ai"><i class="fa fa-shopping-cart"></i></a>
             </div>
@@ -156,7 +158,7 @@
                 <i class="fa fa-star"></i>
                 <i class="fa fa-star"></i>
             </div>
-            <div>
+            <div class="price">
                 <h4>₹599</h4>
                 <a href="#" class="ai"><i class="fa fa-shopping-cart"></i></a>
             </div>
@@ -176,7 +178,7 @@
                 <i class="fa fa-star"></i>
                 <i class="fa fa-star"></i>
             </div>
-            <div>
+            <div class="price">
                 <h4>₹799</h4>
                 <a href="#" class="ai"><i class="fa fa-shopping-cart"></i></a>
             </div>
@@ -196,7 +198,8 @@
                 <i class="fa fa-star"></i>
                 <i class="fa fa-star"></i>
             </div>
-            <div>
+            
+            <div class="price">
                 <h4>₹349</h4>
                 <a href="#" class="ai"><i class="fa fa-shopping-cart"></i></a>
             </div>
@@ -217,7 +220,7 @@
                 <i class="fa fa-star"></i>
                 <i class="fa fa-star"></i>
             </div>
-            <div>
+            <div class="price">
                 <h4>₹499</h4>
                 <a href="#" class="ai"><i class="fa fa-shopping-cart"></i></a>
             </div>
@@ -250,7 +253,7 @@
             <i class="fa fa-star"></i>
             <i class="fa fa-star"></i>
           </div>
-          <div>
+          <div class="price">
             <h4>₹299</h4>
             <a href="#" class="ai"><i class="fa fa-shopping-cart"></i></a>
           </div>
@@ -271,7 +274,7 @@
                 <i class="fa fa-star"></i>
                 <i class="fa fa-star"></i>
             </div>
-            <div>
+            <div class="price">
                 <h4>₹299</h4>
                 <a href="#" class="ai"><i class="fa fa-shopping-cart"></i></a>
             </div>
@@ -291,7 +294,7 @@
                 <i class="fa fa-star"></i>
                 <i class="fa fa-star"></i>
             </div>
-            <div>
+            <div class="price">
                 <h4>₹999</h4>
                 <a href="#" class="ai"><i class="fa fa-shopping-cart"></i></a>
             </div>
@@ -311,7 +314,7 @@
                 <i class="fa fa-star"></i>
                 <i class="fa fa-star"></i>
             </div>
-            <div class="price-cart">
+            <div class="price">
                 <h4>₹699</h4>
                 <a href="#" class="ai"><i class="fa fa-shopping-cart"></i></a>
             </div>
@@ -331,7 +334,7 @@
                 <i class="fa fa-star"></i>
                 <i class="fa fa-star"></i>
             </div>
-            <div class="price-cart">
+            <div class="price">
                 <h4>₹449</h4>
                 <a href="#" class="ai"><i class="fa fa-shopping-cart"></i></a>
             </div>
@@ -351,7 +354,7 @@
         <i class="fa fa-star"></i>
         <i class="fa fa-star"></i>
       </div>
-      <div>
+      <div class="price">
         <h4>₹249</h4>
         <a href="#" class="ai"><i class="fa fa-shopping-cart"></i></a>
       </div>
@@ -371,7 +374,7 @@
                 <i class="fa fa-star"></i>
                 <i class="fa fa-star"></i>
             </div>
-            <div>
+            <div class="price">
                 <h4>₹399</h4>
                 <a href="#" class="ai"><i class="fa fa-shopping-cart"></i></a>
             </div>
@@ -390,7 +393,7 @@
                 <i class="fa fa-star"></i>
                 <i class="fa fa-star"></i>
             </div>
-            <div>
+            <div class="price">
                 <h4>₹799</h4>
                 <a href="#" class="ai"><i class="fa fa-shopping-cart"></i></a>
             </div>
@@ -411,7 +414,7 @@
                 <i class="fa fa-star"></i>
                 <i class="fa fa-star"></i>
             </div>
-            <div>
+            <div class="price">
                 <h4>₹249</h4>
                 <a href="#" class="ai"><i class="fa fa-shopping-cart"></i></a>
             </div>
@@ -433,21 +436,24 @@
     <p>Exclusive flash sales on clothing items. Limited time, limited quantities - don't miss out!</p>
     <button id="btn-limited">ENDS SOON - LIMITED STOCK</button>
   </div>
-  <div class="banner-box">
-    <h4>Crazy deal</h4>
-    <h2>Buy 1 and get 1 free</h2>
-    <a href="/learn.html"><button class="fancy-btn">Learn More</button></a>
+  <div class="ban-content">
+    <div class="banner-box">
+      <h4>Crazy deal</h4>
+      <h2>Buy 1 and get 1 free</h2>
+      <a href="/learn.html"><button class="fancy-btn">Learn More</button></a>
+    </div>
+    <div class="banner-box">
+      <h4>Spring/Summer</h4>
+      <h2>Upto 10% OFF</h2>
+      <a href="/shop.html"><button class="fancy-btn">Check it Out</button></a>
+    </div>
+    <div class="banner-box">
+      <h4>Winter Collections</h4>
+      <h2>Upcoming season</h2>
+      <a href="/shop.html"><button class="fancy-btn">Collection</button></a>
+    </div>
   </div>
-  <div class="banner-box">
-    <h4>Spring/Summer</h4>
-    <h2>Upto 10% OFF</h2>
-    <a href="/shop.html"><button class="fancy-btn">Check it Out</button></a>
-  </div>
-   <div class="banner-box">
-    <h4>Winter Collections</h4>
-    <h2>Upcoming season</h2>
-    <a href="/shop.html"><button class="fancy-btn">Collection</button></a>
-  </div>
+  
 </section>
 <!--Lightning Deals Seaction Ends here-->
 
@@ -493,7 +499,7 @@
         <a href="Privacypolicy.html">Privacy Policy</a>
         <a href="#">Terms of Service</a>
         <a href="#">Cookie Policy</a>
-        <a href="#">GDPR Compliance</a>
+        <a href="GDPR.html">GDPR Compliance</a>
     </div>        
     <div class="col">
         <h4>Contact</h4>
@@ -512,7 +518,28 @@
 </footer>
 
    <script src="/js/source.js">
+    
 
    </script>
+   <script>
+
+     document.addEventListener('DOMContentLoaded', () => {
+  const themeToggle = document.getElementById('themeToggle');
+
+  if(localStorage.getItem('theme') === 'dark') {
+    document.body.classList.add('dark-mode');
+    themeToggle.textContent = "🌙";
+  } else {
+    themeToggle.textContent = "🌞";
+  }
+
+  themeToggle.addEventListener('click', () => {
+    document.body.classList.toggle('dark-mode');
+    themeToggle.textContent = document.body.classList.contains('dark-mode') ? "🌙" : "🌞";
+    localStorage.setItem('theme', document.body.classList.contains('dark-mode') ? 'dark' : 'light');
+  });
+});
+
+</script>
 </body>
 </html>
