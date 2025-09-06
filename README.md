@@ -52,51 +52,61 @@ This project is designed as a **responsive e-commerce website** that mimics the 
 
 ## 📂 Project Structure  
 
-```bash
 ecommerce-frontend/
 │
+
 ├── index.html           # Main homepage
+
 ├── product.html         # Product listing page
+
 ├── product-details.html # Product detail page
+
 ├── cart.html            # Shopping cart page
+
 │
+
 ├── assets/              # Images, icons, and screenshots
+
 │   ├── css/             # Custom CSS (if any, with Tailwind config)
+
 │   ├── js/              # JavaScript files
+
 │   └── screenshots/     # Project screenshots
+
 │
+
 └── README.md            # Project documentation
+
 ## 🚀 Getting Started  
 
 Follow these steps to set up and run the project locally:  
 
-### 1️⃣ Clone the repository  
-```bash
+1️⃣ Clone the repository  
 git clone <repository-url>
 cd ecommerce-frontend
 
-### 2️⃣ Open in Browser  
+2️⃣ Open in Browser  
 Simply open `index.html` in your browser.  
 (No server needed since this is a frontend-only project)  
 
 ---
 
-## 📸 Screenshots  
+📸 Screenshots (add screenshots) 
 
-### 🏠 Homepage  
+🏠 Homepage  
 ![Homepage Screenshot](assets/screenshots/home.png)  
 
-### 📦 Product Listing  
+📦 Product Listing  
 ![Product Page Screenshot](assets/screenshots/product-list.png)  
 
-### 🛍️ Shopping Cart  
+🛍️ Shopping Cart  
 ![Cart Screenshot](assets/screenshots/cart.png)  
 
 *(You can add screenshots after taking them from your project UI)*  
 
 ---
 
-## 🛤️ Roadmap  
+🛤️ Roadmap  
 - [ ] Add backend integration (**Node.js/Express**)  
 - [ ] Implement real-time **cart & checkout functionality**  
 - [ ] Integrate **payment gateways** (UPI, Stripe, PayPal)  
